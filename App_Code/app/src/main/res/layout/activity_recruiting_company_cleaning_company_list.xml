@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RecruitingCompanyCleaningCompanyListActivity">
+
+        <include
+            android:id="@+id/appBarCustom"
+            layout="@layout/app_bar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="15dp"
+                android:drawableRight="@drawable/dropdown"
+                android:background="@color/silver2"
+                android:layout_height="wrap_content"
+                android:hint="Select District"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="15dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="@color/silver4"
+                    android:id="@+id/itemContainer"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Virtusa"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/district"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="Request date : 02-10-2022"
+                            android:textColor="@color/silver1"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Employee count : 10"
+                            android:textSize="16sp"
+                            android:textColor="@color/silver1"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="@color/silver4"
+                    android:id="@+id/itemContainer1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/name1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Virtusa"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/district1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="Request date : 02-10-2022"
+                            android:textColor="@color/silver1"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/count1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Employee count : 10"
+                            android:textSize="16sp"
+                            android:textColor="@color/silver1"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="@color/silver4"
+                    android:id="@+id/itemContainer2"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/name2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Virtusa"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/district2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="Request date : 02-10-2022"
+                            android:textColor="@color/silver1"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/count2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Employee count : 10"
+                            android:textSize="16sp"
+                            android:textColor="@color/silver1"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="15dp"
+                    app:contentPadding="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="@color/silver4"
+                    android:id="@+id/itemContainer3"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/name3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Virtusa"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/district3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="Request date : 02-10-2022"
+                            android:textColor="@color/silver1"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/count3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Employee count : 10"
+                            android:textSize="16sp"
+                            android:textColor="@color/silver1"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>

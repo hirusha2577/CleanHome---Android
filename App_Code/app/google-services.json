@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462439486907",
+    "project_id": "cleanhome-639cc",
+    "storage_bucket": "cleanhome-639cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462439486907:android:b4de043c2a106625a2209e",
+        "android_client_info": {
+          "package_name": "com.example.cleanhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462439486907-ekigukk2jgjv2juioeaebgir34vmofme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjkcaNimhoJAF6xq_3830MrTgGkQKFstw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462439486907-ekigukk2jgjv2juioeaebgir34vmofme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

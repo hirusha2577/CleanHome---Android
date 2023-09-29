@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_cleaning_company_choose_category"
+            android:icon="@drawable/ic_add"
+            android:visible="false"
+            android:title="Choose Category" />
+        <item
+            android:id="@+id/nav_cleaning_company_manage_category"
+            android:icon="@drawable/ic_manage"
+            android:visible="false"
+            android:title="Manage Category" />
+        <item
+            android:id="@+id/nav_cleaning_company_manage_request"
+            android:icon="@drawable/ic_request"
+            android:visible="false"
+            android:title="Manage Request" />
+
+
+
+        <item
+            android:id="@+id/nav_recruiting_company_pick_category"
+            android:icon="@drawable/ic_category"
+            android:visible="false"
+            android:title="Cleaning Category" />
+
+
+
+
+        <item
+            android:id="@+id/nav_volunteer_organization_choose_category"
+            android:icon="@drawable/ic_add"
+            android:visible="false"
+            android:title="Choose Category" />
+        <item
+            android:id="@+id/nav_volunteer_organization_manage_category"
+            android:icon="@drawable/ic_manage"
+            android:visible="false"
+            android:title="Manage Category" />
+        <item
+            android:id="@+id/nav_volunteer_organization_publish_event"
+            android:icon="@drawable/ic_publish"
+            android:visible="false"
+            android:title="Publish Event" />
+        <item
+            android:id="@+id/nav_volunteer_organization_manage_request"
+            android:icon="@drawable/ic_request"
+            android:visible="false"
+            android:title="Manage Request" />
+
+
+
+
+        <item
+            android:id="@+id/nav_volunteer_pick_category"
+            android:icon="@drawable/ic_category"
+            android:visible="false"
+            android:title="Select Category" />
+        <item
+            android:id="@+id/nav_volunteer_RequestHistory"
+            android:icon="@drawable/ic_manage"
+            android:visible="false"
+            android:title="Request History" />
+
+
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>

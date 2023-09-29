@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginRight="16dp"
+android:layout_marginLeft="16dp"
+android:layout_marginTop="10dp"
+android:background="@color/white"
+tools:context=".Fragments.VolunteerOrganizationManageRequestFragment">
+
+<TextView
+    android:id="@+id/head"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/arapey"
+    android:letterSpacing="0.04"
+    android:text="Manage Request"
+    android:textColor="@color/black"
+    android:textSize="45sp"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/head"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="15dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/silver4"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hirusha Ravishan"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Request date : 02-10-2022"
+                    android:textColor="@color/silver1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District : Galle"
+                    android:textSize="16sp"
+                    android:textColor="@color/silver1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ok"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:padding="4dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/cancel"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="15dp"
+        app:contentPadding="15dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/silver4"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shehan Eranga"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Request date : 06-11-2022"
+                    android:textColor="@color/silver1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District : Colombo"
+                    android:textSize="16sp"
+                    android:textColor="@color/silver1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ok"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:padding="4dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/cancel"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="15dp"
+        app:contentPadding="15dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/silver4"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thisara Kavinda"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Request date : 11-10-2022"
+                    android:textColor="@color/silver1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District : Kandy"
+                    android:textSize="16sp"
+                    android:textColor="@color/silver1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ok"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:padding="4dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/cancel"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</RelativeLayout>

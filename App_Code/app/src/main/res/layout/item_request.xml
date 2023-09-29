@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:contentPadding="15dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/silver4"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_weight="5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Virtusa"
+               android:textSize="20sp"
+               android:textColor="@color/black"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="7dp"
+               android:text="Request date : 02-10-2022"
+               android:textColor="@color/silver1"
+               android:textSize="16sp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Employee count : 10"
+               android:textSize="16sp"
+               android:textColor="@color/silver1"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:gravity="end"
+           android:orientation="vertical">
+           <ImageView
+               android:layout_weight="1"
+               android:padding="4dp"
+               android:layout_marginBottom="3dp"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/ok"/>
+         <ImageView
+             android:layout_weight="1"
+             android:layout_width="30dp"
+             android:padding="4dp"
+             android:layout_marginTop="3dp"
+             android:layout_height="30dp"
+             android:src="@drawable/cancel"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>
